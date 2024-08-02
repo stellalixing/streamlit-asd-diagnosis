@@ -51,7 +51,7 @@ for name in feature_names:
 new_sample = np.array([features])
 
 # 当点击按钮时进行预测
-if st.button('预测'):
+if st.button('Predict'):
     # 数据预处理
     new_sample_scaled = scaler.transform(new_sample)
     new_sample_normalized = normalize(new_sample_scaled, norm='l2')
