@@ -1,2 +1,0 @@
-# ASD_diagnosis
- prediction
